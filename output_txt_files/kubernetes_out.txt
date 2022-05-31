@@ -11,3 +11,11 @@ NAME                                      READY   STATUS    RESTARTS   AGE
 pod/ml-microservice-api-b5994c9f5-dzpfg   1/1     Running   0          4m17s
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
